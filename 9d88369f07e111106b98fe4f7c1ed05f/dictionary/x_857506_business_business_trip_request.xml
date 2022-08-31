@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Business Trip Request" max_length="40" name="x_857506_business_business_trip_request" type="collection">
+        <element label="Approved" max_length="40" name="approved" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Date" max_length="40" name="date" type="glide_date"/>
+        <element label="Duration" max_length="40" name="duration" type="integer"/>
+        <element label="Flight" max_length="40" name="flight" type="boolean"/>
+        <element label="Hotel" max_length="40" name="hotel" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Hotel Name" max_length="40" name="hotel_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Location" max_length="40" name="location" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="encode_utf8=false" label="Travelers" max_length="32" name="travelers" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+        <index name="index2">
+            <element name="travelers"/>
+        </index>
+    </element>
+</database>
