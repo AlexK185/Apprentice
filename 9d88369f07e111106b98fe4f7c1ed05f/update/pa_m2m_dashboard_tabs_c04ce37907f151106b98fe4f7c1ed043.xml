@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_m2m_dashboard_tabs">
+    <pa_m2m_dashboard_tabs action="INSERT_OR_UPDATE">
+        <dashboard display_value="Approved Business Trips">5b2ca37907f151106b98fe4f7c1ed041</dashboard>
+        <home>false</home>
+        <homepage/>
+        <order>1</order>
+        <sys_class_name>pa_m2m_dashboard_tabs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 19:25:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c04ce37907f151106b98fe4f7c1ed043</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>5b2ca37907f151106b98fe4f7c1ed041</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Business Trip App" source="x_857506_business">9d88369f07e111106b98fe4f7c1ed05f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Business Trip App">9d88369f07e111106b98fe4f7c1ed05f</sys_scope>
+        <sys_update_name>pa_m2m_dashboard_tabs_c04ce37907f151106b98fe4f7c1ed043</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 19:25:40</sys_updated_on>
+        <tab display_value="Approved Business Tr - New Tab">444ce37907f151106b98fe4f7c1ed040</tab>
+    </pa_m2m_dashboard_tabs>
+</record_update>

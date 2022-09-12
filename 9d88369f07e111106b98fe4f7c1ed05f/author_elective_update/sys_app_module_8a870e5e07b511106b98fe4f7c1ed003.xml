@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Business Trip App">ff5ab213072511106b98fe4f7c1ed0f7</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Create New</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_857506_business_business_trip_request</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_857506_business.Business Trip Manager,admin</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-10 01:23:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8a870e5e07b511106b98fe4f7c1ed003</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create New</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Business Trip App" source="x_857506_business">9d88369f07e111106b98fe4f7c1ed05f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Business Trip App">9d88369f07e111106b98fe4f7c1ed05f</sys_scope>
+        <sys_update_name>sys_app_module_8a870e5e07b511106b98fe4f7c1ed003</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-10 01:23:38</sys_updated_on>
+        <timeline_page/>
+        <title>Create New</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Business Trip App">9d88369f07e111106b98fe4f7c1ed05f</application>
+        <file_path/>
+        <instance_id>2e553fc0db235384cbf6d5b0cf9619f5</instance_id>
+        <instance_name>dev66561</instance_name>
+        <name>sys_app_module_8a870e5e07b511106b98fe4f7c1ed003</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Business Trip App">ff5ab213072511106b98fe4f7c1ed0f7</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Create New</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_857506_business_business_trip_request</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_857506_business.Business Trip Manager,admin</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-09-10 01:23:38</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>8a870e5e07b511106b98fe4f7c1ed003</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Create New</sys_name><sys_overrides/><sys_package display_value="Business Trip App" source="x_857506_business">9d88369f07e111106b98fe4f7c1ed05f</sys_package><sys_policy/><sys_scope display_value="Business Trip App">9d88369f07e111106b98fe4f7c1ed05f</sys_scope><sys_update_name>sys_app_module_8a870e5e07b511106b98fe4f7c1ed003</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-09-10 01:23:38</sys_updated_on><timeline_page/><title>Create New</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-760932844</payload_hash>
+        <record_name>Create New</record_name>
+        <reverted_from/>
+        <source>382c47df072511106b98fe4f7c1ed0cf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-10 01:23:38</sys_created_on>
+        <sys_id>bdc7ca9e07b511106b98fe4f7c1ed092</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18324fec1250000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-10 01:23:38</sys_updated_on>
+        <type>Module</type>
+        <update_guid>f5c7ca9e02b51110052258c824ee5a92</update_guid>
+        <update_guid_history>f5c7ca9e02b51110052258c824ee5a92:-760932844</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Create New">ca5806de07b511106b98fe4f7c1ed0e7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-10 01:26:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>5fd187ca2f09469e97be478c46a98b41</sys_id>
+        <sys_metadata>8a870e5e07b511106b98fe4f7c1ed003</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create New</sys_name>
+        <sys_package display_value="Business Trip App" source="x_857506_business">9d88369f07e111106b98fe4f7c1ed05f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Business Trip App">9d88369f07e111106b98fe4f7c1ed05f</sys_scope>
+        <sys_scope_delete display_value="">05ce9b23a76c4f1e843b9e2497e93e51</sys_scope_delete>
+        <sys_update_name>sys_app_module_8a870e5e07b511106b98fe4f7c1ed003</sys_update_name>
+        <sys_update_version display_value="sys_app_module_8a870e5e07b511106b98fe4f7c1ed003">bdc7ca9e07b511106b98fe4f7c1ed092</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-10 01:26:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

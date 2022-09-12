@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_tabs">
+    <pa_tabs action="INSERT_OR_UPDATE">
+        <canvas_page display_value="PA Approved Business Tr - New Tab">884caf3907f151106b98fe4f7c1ed0c5</canvas_page>
+        <name>Approved Business Tr - New Tab</name>
+        <page display_value="PA Approved Business Tr - New Tab">044caf3907f151106b98fe4f7c1ed0c4</page>
+        <sys_class_name>pa_tabs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 19:25:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>444ce37907f151106b98fe4f7c1ed040</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Approved Business Tr - New Tab</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Business Trip App" source="x_857506_business">9d88369f07e111106b98fe4f7c1ed05f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Business Trip App">9d88369f07e111106b98fe4f7c1ed05f</sys_scope>
+        <sys_update_name>pa_tabs_444ce37907f151106b98fe4f7c1ed040</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-08 19:25:40</sys_updated_on>
+    </pa_tabs>
+</record_update>

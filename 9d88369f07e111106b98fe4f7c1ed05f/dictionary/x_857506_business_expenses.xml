@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Expenses" max_length="40" name="x_857506_business_expenses" sizeclass="6" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" mandatory="true" max_length="40" name="number" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Expense Category" mandatory="true" max_length="40" name="u_expense_category" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Flight" sequence="0" value="flight"/>
+                <element inactive_on_update="false" label="Hotel" sequence="1" value="hotel"/>
+                <element inactive_on_update="false" label="Public Transit" sequence="2" value="public transit"/>
+                <element inactive_on_update="false" label="Parking" sequence="3" value="parking"/>
+                <element inactive_on_update="false" label="Food" sequence="4" value="food"/>
+                <element inactive_on_update="false" label="Entertainment" sequence="5" value="entertainment"/>
+                <element inactive_on_update="false" label="Other" sequence="6" value="other"/>
+            </choice>
+        </element>
+        <element label="Receipt Upload" max_length="40" name="u_receipt_upload" type="file_attachment"/>
+        <element attributes="encode_utf8=false" label="New Reference" mandatory="true" max_length="32" name="u_reference_1" reference="x_857506_business_business_trip_request" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_2" type="string"/>
+        <element label="Total" mandatory="true" max_length="40" name="u_total" type="integer"/>
+        <element attributes="encode_utf8=false" label="Trip Name" mandatory="true" max_length="32" name="u_trip_name" reference="x_857506_business_business_trip_request" type="reference"/>
+        <index name="index">
+            <element name="u_trip_name"/>
+        </index>
+        <index name="index2">
+            <element name="u_reference_1"/>
+        </index>
+    </element>
+</database>

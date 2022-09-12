@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="1edd24da077111106b98fe4f7c1ed015" sys_domain="global" table="x_857506_business_business_trip_request" version="3" view="employee_view">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-09-09 18:50:50</sys_created_on>
+            <sys_id>37dd64da077111106b98fe4f7c1ed0b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_857506_business_business_trip_request" sys_domain="global" view="d6dd24da077111106b98fe4f7c1ed00e">1edd24da077111106b98fe4f7c1ed015</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-09-09 18:50:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-09-09 18:50:50</sys_created_on>
+            <sys_id>b7dd64da077111106b98fe4f7c1ed0b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_857506_business_business_trip_request" sys_domain="global" view="d6dd24da077111106b98fe4f7c1ed00e">1edd24da077111106b98fe4f7c1ed015</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-09-09 18:50:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>date</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-09-09 18:50:50</sys_created_on>
+            <sys_id>3bdd64da077111106b98fe4f7c1ed0b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_857506_business_business_trip_request" sys_domain="global" view="d6dd24da077111106b98fe4f7c1ed00e">1edd24da077111106b98fe4f7c1ed015</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-09-09 18:50:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>location</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-09-09 18:50:50</sys_created_on>
+            <sys_id>bbdd64da077111106b98fe4f7c1ed0b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_857506_business_business_trip_request" sys_domain="global" view="d6dd24da077111106b98fe4f7c1ed00e">1edd24da077111106b98fe4f7c1ed015</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-09-09 18:50:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-09-09 18:50:50</sys_created_on>
+            <sys_id>3fdd64da077111106b98fe4f7c1ed0b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_857506_business_business_trip_request" sys_domain="global" view="d6dd24da077111106b98fe4f7c1ed00e">1edd24da077111106b98fe4f7c1ed015</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-09-09 18:50:50</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_state</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-09-09 18:50:50</sys_created_on>
+            <sys_id>bfdd64da077111106b98fe4f7c1ed0b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_857506_business_business_trip_request" sys_domain="global" view="d6dd24da077111106b98fe4f7c1ed00e">1edd24da077111106b98fe4f7c1ed015</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-09-09 18:50:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>duration</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-09-09 18:50:50</sys_created_on>
+            <sys_id>33dd64da077111106b98fe4f7c1ed0b8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_857506_business_business_trip_request" sys_domain="global" view="d6dd24da077111106b98fe4f7c1ed00e">1edd24da077111106b98fe4f7c1ed015</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-09-09 18:50:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>travelers</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-09-09 18:50:50</sys_created_on>
+            <sys_id>b3dd64da077111106b98fe4f7c1ed0b8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_857506_business_business_trip_request" sys_domain="global" view="d6dd24da077111106b98fe4f7c1ed00e">1edd24da077111106b98fe4f7c1ed015</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-09-09 18:50:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_857506_business_business_trip_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-09-09 18:50:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1edd24da077111106b98fe4f7c1ed015</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_857506_business_business_trip_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Business Trip App" source="x_857506_business">9d88369f07e111106b98fe4f7c1ed05f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Business Trip App">9d88369f07e111106b98fe4f7c1ed05f</sys_scope>
+            <sys_update_name>sys_ui_section_1edd24da077111106b98fe4f7c1ed015</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-09-09 18:50:44</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Employee view" name="employee_view">d6dd24da077111106b98fe4f7c1ed00e</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

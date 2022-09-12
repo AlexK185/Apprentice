@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_flight_confirmation" label="Confirmation #" language="en" table="x_857506_business_business_trip_request">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_flight_confirmation</element>
+            <help/>
+            <hint/>
+            <label>Confirmation #</label>
+            <language>en</language>
+            <name>x_857506_business_business_trip_request</name>
+            <plural>Confirmation #s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-09-08 22:24:17</sys_created_on>
+            <sys_id>20255c4e077551106b98fe4f7c1ed061</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Confirmation #</sys_name>
+            <sys_package display_value="Business Trip App" source="x_857506_business">9d88369f07e111106b98fe4f7c1ed05f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Business Trip App">9d88369f07e111106b98fe4f7c1ed05f</sys_scope>
+            <sys_update_name>sys_documentation_x_857506_business_business_trip_request_u_flight_confirmation_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-09-08 22:24:17</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

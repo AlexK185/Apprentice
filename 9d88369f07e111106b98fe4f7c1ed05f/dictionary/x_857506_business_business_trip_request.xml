@@ -1,16 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Business Trip Request" max_length="40" name="x_857506_business_business_trip_request" type="collection">
-        <element label="Approved" max_length="40" name="approved" type="boolean"/>
+    <element label="Business Trip Request" max_length="40" name="x_857506_business_business_trip_request" sizeclass="7" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Date" max_length="40" name="date" type="glide_date"/>
-        <element label="Duration" max_length="40" name="duration" type="integer"/>
-        <element label="Flight" max_length="40" name="flight" type="boolean"/>
-        <element label="Hotel" max_length="40" name="hotel" type="boolean"/>
-        <element attributes="edge_encryption_enabled=true" label="Hotel Name" max_length="40" name="hotel_name" type="string"/>
+        <element label="Duration (days)" max_length="40" name="duration" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="Location" max_length="40" name="location" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="name" type="string"/>
-        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Purpose of Trip" mandatory="true" max_length="40" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" mandatory="true" max_length="40" name="number" read_only="true" type="string"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <element attributes="encode_utf8=false" label="Travelers" max_length="32" name="travelers" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Airline" max_length="40" name="u_airline" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Flight" max_length="40" name="u_flight" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Confirmation #" max_length="40" name="u_flight_confirmation" type="string"/>
+        <element label="Flight Required" max_length="40" name="u_flight_req" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Hotel" max_length="40" name="u_hotel" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Confirmation #" max_length="40" name="u_hotel_confirmation" type="string"/>
+        <element label="Hotel Required" max_length="40" name="u_hotel_req" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="new" label="State" mandatory="true" max_length="40" name="u_state" type="string">
+            <choice>
+                <element inactive_on_update="false" label="New" sequence="0" value="new"/>
+                <element inactive="true" inactive_on_update="true" label="Pending" sequence="0" value="pending"/>
+                <element inactive_on_update="false" label="Approved" sequence="1" value="approved"/>
+                <element inactive="true" inactive_on_update="true" label="Reimbursed" sequence="1" value="reimbursed"/>
+                <element inactive_on_update="false" label="In Progress" sequence="2" value="in progress"/>
+                <element inactive_on_update="false" label="Closed" sequence="3" value="closed"/>
+            </choice>
+        </element>
         <index name="index">
             <element name="sys_class_name"/>
         </index>

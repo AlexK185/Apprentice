@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>date</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Check Past Date</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    var now = new Date();
+    now = formatDate(now, g_user_date_time_format);
+    now = getDateFromFormat(now, g_user_date_time_format);
+    var X = g_form.getValue('review_date'); //Review date is field on the form.
+
+    X = getDateFromFormat(X, g_user_date_time_format);
+    if (X < now) {
+        alert('Selected date is in the past.');
+        g_form.setValue('review_date', '');
+    }
+
+    return false;
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-09 23:23:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>85ab29d2077511106b98fe4f7c1ed094</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Check Past Date</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Business Trip App" source="x_857506_business">9d88369f07e111106b98fe4f7c1ed05f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Business Trip App">9d88369f07e111106b98fe4f7c1ed05f</sys_scope>
+        <sys_update_name>sys_script_client_85ab29d2077511106b98fe4f7c1ed094</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-12 15:57:57</sys_updated_on>
+        <table>x_857506_business_business_trip_request</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

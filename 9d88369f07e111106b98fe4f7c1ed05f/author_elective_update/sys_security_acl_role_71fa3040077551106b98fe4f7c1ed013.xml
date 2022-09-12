@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 20:01:44</sys_created_on>
+        <sys_id>71fa3040077551106b98fe4f7c1ed013</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_857506_business_expense_report.x_857506_business.expense_report_user</sys_name>
+        <sys_package display_value="Business Trip App" source="x_857506_business">9d88369f07e111106b98fe4f7c1ed05f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Business Trip App">9d88369f07e111106b98fe4f7c1ed05f</sys_scope>
+        <sys_security_acl display_value="x_857506_business_expense_report">b9fa3040077551106b98fe4f7c1ed010</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_71fa3040077551106b98fe4f7c1ed013</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 20:01:44</sys_updated_on>
+        <sys_user_role display_value="x_857506_business.expense_report_user" name="x_857506_business.expense_report_user">1dfaf40c073551106b98fe4f7c1ed002</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Business Trip App">9d88369f07e111106b98fe4f7c1ed05f</application>
+        <file_path/>
+        <instance_id>2e553fc0db235384cbf6d5b0cf9619f5</instance_id>
+        <instance_name>dev66561</instance_name>
+        <name>sys_security_acl_role_71fa3040077551106b98fe4f7c1ed013</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-09-02 20:01:44</sys_created_on><sys_id>71fa3040077551106b98fe4f7c1ed013</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_857506_business_expense_report.x_857506_business.expense_report_user</sys_name><sys_package display_value="Business Trip App" source="x_857506_business">9d88369f07e111106b98fe4f7c1ed05f</sys_package><sys_policy/><sys_scope display_value="Business Trip App">9d88369f07e111106b98fe4f7c1ed05f</sys_scope><sys_security_acl display_value="x_857506_business_expense_report">b9fa3040077551106b98fe4f7c1ed010</sys_security_acl><sys_update_name>sys_security_acl_role_71fa3040077551106b98fe4f7c1ed013</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-09-02 20:01:44</sys_updated_on><sys_user_role display_value="x_857506_business.expense_report_user" name="x_857506_business.expense_report_user">1dfaf40c073551106b98fe4f7c1ed002</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-383194695</payload_hash>
+        <record_name>x_857506_business_expense_report.x_857506_business.expense_report_user</record_name>
+        <reverted_from/>
+        <source>382c47df072511106b98fe4f7c1ed0cf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 20:01:44</sys_created_on>
+        <sys_id>f1fa3040077551106b98fe4f7c1ed015</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182ffcb85e40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 20:01:44</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>3dfa3040e17551108ebfc5fb6e7dc814</update_guid>
+        <update_guid_history>3dfa3040e17551108ebfc5fb6e7dc814:-383194695</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_857506_business_expense_report.x_857506_business.expense_report_user">397cf880077551106b98fe4f7c1ed0ca</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 20:08:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>49cb841601d34b88a53232673e2059b1</sys_id>
+        <sys_metadata>71fa3040077551106b98fe4f7c1ed013</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_857506_business_expense_report.x_857506_business.expense_report_user</sys_name>
+        <sys_package display_value="Business Trip App" source="x_857506_business">9d88369f07e111106b98fe4f7c1ed05f</sys_package>
+        <sys_parent display_value="">b9fa3040077551106b98fe4f7c1ed010</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Business Trip App">9d88369f07e111106b98fe4f7c1ed05f</sys_scope>
+        <sys_scope_delete display_value="">05ce9b23a76c4f1e843b9e2497e93e51</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_71fa3040077551106b98fe4f7c1ed013</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_71fa3040077551106b98fe4f7c1ed013">f1fa3040077551106b98fe4f7c1ed015</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 20:08:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

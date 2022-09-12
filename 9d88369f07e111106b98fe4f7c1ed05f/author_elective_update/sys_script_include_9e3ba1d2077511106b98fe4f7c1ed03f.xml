@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_857506_business.Date Validation</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>Validates if the date is in the past</description>
+        <name>Date Validation</name>
+        <script><![CDATA[var DateValidation = Class.create();
+
+ 
+
+DateValidation.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+
+validateDate: function() {
+
+ 
+
+  var ActualEndDate = this.getParameter('sysparm_end_date');
+
+ 
+
+  return gs.dateDiff(gs.now(),ActualEndDate, true)/86400;
+
+ 
+
+  },
+
+ 
+
+      type: 'DateValidation'
+
+ 
+
+});
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-09 23:20:07</sys_created_on>
+        <sys_id>9e3ba1d2077511106b98fe4f7c1ed03f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Date Validation</sys_name>
+        <sys_package display_value="Business Trip App" source="x_857506_business">9d88369f07e111106b98fe4f7c1ed05f</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Business Trip App">9d88369f07e111106b98fe4f7c1ed05f</sys_scope>
+        <sys_update_name>sys_script_include_9e3ba1d2077511106b98fe4f7c1ed03f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-09 23:20:07</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Business Trip App">9d88369f07e111106b98fe4f7c1ed05f</application>
+        <file_path/>
+        <instance_id>2e553fc0db235384cbf6d5b0cf9619f5</instance_id>
+        <instance_name>dev66561</instance_name>
+        <name>sys_script_include_9e3ba1d2077511106b98fe4f7c1ed03f</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_857506_business.Date Validation&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description&gt;Validates if the date is in the past&lt;/description&gt;&lt;name&gt;Date Validation&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var DateValidation = Class.create();
+
+ 
+
+DateValidation.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+
+validateDate: function() {
+
+ 
+
+  var ActualEndDate = this.getParameter('sysparm_end_date');
+
+ 
+
+  return gs.dateDiff(gs.now(),ActualEndDate, true)/86400;
+
+ 
+
+  },
+
+ 
+
+      type: 'DateValidation'
+
+ 
+
+});
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-09-09 23:20:07&lt;/sys_created_on&gt;&lt;sys_id&gt;9e3ba1d2077511106b98fe4f7c1ed03f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Date Validation&lt;/sys_name&gt;&lt;sys_package display_value="Business Trip App" source="x_857506_business"&gt;9d88369f07e111106b98fe4f7c1ed05f&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Business Trip App"&gt;9d88369f07e111106b98fe4f7c1ed05f&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_9e3ba1d2077511106b98fe4f7c1ed03f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-09-09 23:20:07&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-197511288</payload_hash>
+        <record_name>Date Validation</record_name>
+        <reverted_from/>
+        <source>382c47df072511106b98fe4f7c1ed0cf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-09 23:20:07</sys_created_on>
+        <sys_id>dc8b6d12077511106b98fe4f7c1ed04b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183248da9e50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-09 23:20:07</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>188b6d12667511101bc0419967315d4b</update_guid>
+        <update_guid_history>188b6d12667511101bc0419967315d4b:-197511288</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-09 23:35:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>2bf480baebe746659ad36e5a1a9c4409</sys_id>
+        <sys_metadata>9e3ba1d2077511106b98fe4f7c1ed03f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Date Validation</sys_name>
+        <sys_package display_value="Business Trip App" source="x_857506_business">9d88369f07e111106b98fe4f7c1ed05f</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Business Trip App">9d88369f07e111106b98fe4f7c1ed05f</sys_scope>
+        <sys_scope_delete display_value="">05ce9b23a76c4f1e843b9e2497e93e51</sys_scope_delete>
+        <sys_update_name>sys_script_include_9e3ba1d2077511106b98fe4f7c1ed03f</sys_update_name>
+        <sys_update_version display_value="sys_script_include_9e3ba1d2077511106b98fe4f7c1ed03f">dc8b6d12077511106b98fe4f7c1ed04b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-09 23:35:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
